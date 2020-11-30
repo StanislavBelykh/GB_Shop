@@ -54,6 +54,7 @@ class TestRequest {
                     print(error.localizedDescription)
                 }
             }
+        
         requestFactory.makeChangeUserDataFactory()
             .changeUserData(userDataTest) { response in
                 switch response.result {
